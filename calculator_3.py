@@ -35,6 +35,9 @@ def update_display():
     text_result.delete(1.0, "end")
     text_result.insert(1.0, parse_string(calculation))
 
+def exit():
+    root.destroy()
+
 def on_key_press(event):
     key = event.char
     if key.isdigit() or key in "+-*/()":
@@ -45,6 +48,8 @@ def on_key_press(event):
         delete()
     elif event.keysym == "Escape":
         clear()
+    elif event.keysym == "c":
+        exit()
 
 root = tk.Tk()
 root.geometry("300x275")
