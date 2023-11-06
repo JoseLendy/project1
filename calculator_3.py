@@ -20,7 +20,11 @@ def delete():
 def evaluate():
     global calculation
     try:
-        calculation = str(eval(calculation))
+        result = eval(calculation)
+        if float(result).is_integer():
+            calculation = str(int(result))
+        else:
+            calculation = str(result)
         update_display()
     except:
         clear()
