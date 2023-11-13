@@ -19,7 +19,7 @@ Ensure you have Python installed on your system. No additional libraries are req
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/calculator-app.git
+    git clone https://github.com/JoseLendy/calculator_3.git
     ```
 
 2. Navigate to the project directory:
