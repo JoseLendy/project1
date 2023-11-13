@@ -19,19 +19,19 @@ Ensure you have Python installed on your system. No additional libraries are req
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/JoseLendy/calculator_3.git
+    git clone https://github.com/JoseLendy/project1.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd calculator-app
+    cd project1
     ```
 
 3. Run the calculator:
 
     ```bash
-    python calculator.py
+    python calculator_3.py
     ```
 
 ## Features
@@ -48,7 +48,7 @@ Ensure you have Python installed on your system. No additional libraries are req
 
 ## Contributors
 
-- Jose Arsenio Lendy (https://github.com/JoseLendy)
+- Jose Arsenio Lendy ([JoseLendy GitHub Profile](https://github.com/JoseLendy))
 
 ## License
 
