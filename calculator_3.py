@@ -14,8 +14,9 @@ def add(symbol):
 
 def delete():
     global calculation
-    calculation = calculation[:-1]
-    update_display()
+    if calculation:
+        calculation = calculation[:-1]
+        update_display()
 
 def evaluate():
     global calculation
@@ -49,7 +50,8 @@ def on_key_press(event):
     elif event.keysym == "Return":
         evaluate()
     elif event.keysym == "Backspace":
-        delete()
+        if calculation:
+            delete()
     elif event.keysym == "Escape":
         clear()
     elif event.keysym == "c":
