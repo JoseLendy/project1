@@ -49,7 +49,7 @@ def on_key_press(event):
         add(key)
     elif event.keysym == "Return":
         evaluate()
-    elif event.keysym == "Backspace":
+    elif event.keysym == "BackSpace":
         if calculation:
             delete()
     elif event.keysym == "Escape":
